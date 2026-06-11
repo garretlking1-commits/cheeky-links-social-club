@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="680" viewBox="0 0 680 680" role="img">
+<title>The Cheeky Links Social Club embroidered patch</title>
+<desc>A round vintage embroidered patch: a rabbit golfer smoking a joint mid-swing on a mountain golf course, flanked by the numbers 20 and 26, with the words Cheeky Links and social club.</desc>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;display=swap');
+.ttl{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:1px;}
+.num{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;}
+.sub{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;letter-spacing:5px;}
+.rb{fill:#d4c5a1;stroke:#34401d;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;}
+.hl{fill:none;stroke:#6f6e46;stroke-width:1.6;stroke-linecap:round;opacity:.55;}
+</style>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#93a7a8"/><stop offset="1" stop-color="#e3ddc1"/>
+</linearGradient>
+<clipPath id="scene"><circle cx="340" cy="340" r="300"/></clipPath>
+</defs>
+
+<circle cx="340" cy="340" r="318" fill="#414c2a"/>
+<circle cx="340" cy="340" r="306" fill="none" stroke="#586539" stroke-width="20" stroke-dasharray="7 7"/>
+<circle cx="340" cy="340" r="306" fill="none" stroke="#46512d" stroke-width="20" stroke-dasharray="7 7" stroke-dashoffset="7"/>
+
+<g clip-path="url(#scene)">
+<rect x="40" y="40" width="600" height="320" fill="url(#sky)"/>
+<rect x="40" y="350" width="600" height="290" fill="#cdd09a"/>
+
+<g fill="#eef0e1" stroke="#d2d4bf" stroke-width="1.5">
+<g><ellipse cx="170" cy="150" rx="34" ry="16"/><ellipse cx="198" cy="142" rx="26" ry="18"/><ellipse cx="146" cy="146" rx="22" ry="14"/></g>
+<g><ellipse cx="500" cy="120" rx="40" ry="17"/><ellipse cx="528" cy="113" rx="26" ry="16"/><ellipse cx="470" cy="116" rx="22" ry="13"/></g>
+<g><ellipse cx="420" cy="186" rx="28" ry="12"/><ellipse cx="440" cy="180" rx="20" ry="12"/></g>
+</g>
+
+<path d="M40,300 L96,250 L150,292 L210,238 L286,290 L350,250 L420,296 L300,300 Z" fill="#99a18d"/>
+<path d="M40,318 L120,258 L188,300 L240,300 L40,340 Z" fill="#99a18d"/>
+<path d="M40,330 L110,272 L168,312 L232,266 L300,320 L360,280 L300,340 L40,344 Z" fill="#6e7b54"/>
+<path d="M430,300 L500,250 L560,296 L620,258 L640,300 L640,340 L430,340 Z" fill="#99a18d"/>
+<path d="M430,330 L496,286 L556,320 L612,284 L640,316 L640,346 L430,346 Z" fill="#6e7b54"/>
+<g stroke="#56603f" stroke-width="1.4" opacity=".5" fill="none">
+<path d="M150,312 L168,320"/><path d="M232,288 L250,300"/><path d="M510,300 L528,312"/><path d="M584,300 L600,310"/>
+</g>
+
+<path d="M40,360 C140,344 240,352 340,360 C440,368 560,352 640,360 L640,392 L40,392 Z" fill="#8fa05b"/>
+<path d="M40,392 C160,380 300,398 420,392 C520,387 600,396 640,392 L640,640 L40,640 Z" fill="#cdd09a"/>
+
+<path d="M70,372 C96,360 140,360 168,374 C150,392 96,394 78,384 Z" fill="#86a099" stroke="#5f7a73" stroke-width="1.5"/>
+<ellipse cx="452" cy="404" rx="34" ry="13" fill="#d9c89b" stroke="#b9a878" stroke-width="1.5"/>
+<ellipse cx="556" cy="430" rx="30" ry="12" fill="#d9c89b" stroke="#b9a878" stroke-width="1.5"/>
+<line x1="500" y1="356" x2="500" y2="402" stroke="#3a3a2c" stroke-width="2.5"/>
+<path d="M500,356 L524,364 L500,372 Z" fill="#b0492f"/>
+
+<path d="M40,560 C160,540 280,556 360,548 C480,536 560,556 640,548 L640,640 L40,640 Z" fill="#6c7942"/>
+<g stroke="#586a33" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".85">
+<path d="M96,556 L96,538 M104,556 C104,544 110,540 112,534 M88,556 C88,546 82,542 80,536"/>
+<path d="M210,566 L210,548 M218,566 C218,554 224,548 226,542 M202,566 C202,556 196,552 194,546"/>
+<path d="M470,560 L470,542 M478,560 C478,548 484,544 486,538 M462,560 C462,550 456,546 454,540"/>
+<path d="M570,556 L570,540 M578,556 C578,546 584,540 586,534 M562,556 C562,548 556,544 554,538"/>
+</g>
+</g>
+
+<text class="num" x="196" y="320" font-size="46" fill="#2f3a1c" text-anchor="middle">20</text>
+<text class="num" x="486" y="320" font-size="46" fill="#2f3a1c" text-anchor="middle">26</text>
+
+<ellipse cx="350" cy="462" rx="74" ry="11" fill="#2a3019" opacity=".22"/>
+
+<g class="rb">
+<path d="M334,252 C320,210 314,180 318,156 C320,146 331,148 334,160 C339,196 343,224 347,250 Z"/>
+<path d="M352,250 C354,222 359,192 366,162 C369,150 380,151 378,165 C374,197 367,226 361,252 Z"/>
+<path d="M312,410 a11,11 0 1,0 0.1,0 Z"/>
+<ellipse cx="326" cy="452" rx="23" ry="9"/>
+<ellipse cx="372" cy="452" rx="21" ry="9"/>
+<path d="M322,306 C312,332 308,372 312,406 C314,426 322,440 340,442 C360,442 372,426 374,402 C378,368 372,330 362,308 C350,314 334,314 322,306 Z"/>
+<ellipse cx="344" cy="276" rx="32" ry="28"/>
+<path d="M316,284 C305,282 300,291 307,298 C312,303 322,300 323,292 Z"/>
+<path d="M330,320 C352,314 378,302 399,292 C404,290 406,296 401,300 C379,311 352,323 332,327 C327,328 326,322 330,320 Z"/>
+<path d="M356,310 C372,300 390,292 402,288 C409,286 412,293 406,298 C396,305 380,313 366,319 C359,318 356,314 356,310 Z"/>
+<ellipse cx="406" cy="290" rx="10" ry="8"/>
+</g>
+<g class="hl">
+<path d="M326,360 C336,366 350,366 360,360"/>
+<path d="M324,388 C336,394 350,394 360,388"/>
+<path d="M338,322 C346,328 354,328 360,323"/>
+<path d="M327,166 C326,192 330,220 336,244"/>
+<path d="M363,168 C361,194 357,222 351,246"/>
+</g>
+
+<line x1="434" y1="266" x2="262" y2="420" stroke="#2f3320" stroke-width="7" stroke-linecap="round"/>
+<line x1="434" y1="266" x2="262" y2="420" stroke="#9fa39a" stroke-width="4" stroke-linecap="round"/>
+<line x1="434" y1="266" x2="262" y2="420" stroke="#d8dad2" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M262,420 C250,418 240,424 240,434 C240,442 250,447 261,444 C269,442 273,431 270,423 Z" fill="#aeb2aa" stroke="#34401d" stroke-width="2.5" stroke-linejoin="round"/>
+
+<line x1="309" y1="290" x2="287" y2="297" stroke="#efe9d8" stroke-width="5" stroke-linecap="round"/>
+<circle cx="285" cy="298" r="3.2" fill="#cf5f2b"/>
+<path d="M285,295 C280,279 295,268 289,251 C283,235 298,224 291,206" fill="none" stroke="#c7c9bb" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+<circle cx="351" cy="270" r="3" fill="#2e3a1c"/>
+<circle cx="309" cy="291" r="2.6" fill="#2e3a1c"/>
+
+<circle cx="340" cy="340" r="318" fill="none" stroke="#2b3217" stroke-width="3"/>
+<circle cx="340" cy="340" r="297" fill="none" stroke="#2b3217" stroke-width="2"/>
+
+<text class="ttl" x="340" y="548" font-size="66" fill="#2b3517" text-anchor="middle">Cheeky Links</text>
+<line x1="246" y1="582" x2="286" y2="582" stroke="#2b3517" stroke-width="2"/>
+<line x1="394" y1="582" x2="434" y2="582" stroke="#2b3517" stroke-width="2"/>
+<text class="sub" x="343" y="590" font-size="25" fill="#2b3517" text-anchor="middle">social club</text>
+</svg>

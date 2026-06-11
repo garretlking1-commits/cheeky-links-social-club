@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cheeky Links Social Club — Members Only</title>
+  <meta name="description" content="A private club for the finer things. Premium small-batch cannabis and clubhouse apparel from The Cheeky Links Social Club. California. Members only. 21+." />
+  <meta name="theme-color" content="#060a08" />
+
+  <!-- Social share -->
+  <meta property="og:title" content="The Cheeky Links Social Club" />
+  <meta property="og:description" content="Premium cannabis & clubhouse apparel. Members only. 21+." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://garretlking1-commits.github.io/cheeky-links-social-club/assets/cheeky-links-logo.png" />
+  <meta property="og:url" content="https://garretlking1-commits.github.io/cheeky-links-social-club/" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+
+  <!-- No-flash age check: returning verified members skip the gate before paint -->
+  <script>try{if(localStorage.getItem('b9_age_verified')==='true'){document.documentElement.classList.add('age-ok')}}catch(e){}</script>
+
+  <!-- Fonts: Cormorant Garamond (display serif) + Inter (body / labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================ AGE GATE ============================ -->
+  <div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+    <div class="gate-inner">
+      <img class="gate-logo" src="assets/cheeky-links-logo.webp" alt="The Cheeky Links Social Club" width="1254" height="1254" fetchpriority="high" />
+      <h1 id="gate-title" class="gate-title">Members must be 21 or older.</h1>
+      <p class="gate-copy">By entering, you confirm you are of legal age to purchase and consume cannabis in your state.</p>
+      <div class="gate-actions">
+        <button class="btn btn-gold" id="gate-enter">I'm 21+ — Enter the Club</button>
+        <button class="btn btn-ghost" id="gate-exit">Under 21</button>
+      </div>
+      <p class="gate-fine">California cannabis. For use only by adults 21 and older. Keep out of reach of children.</p>
+    </div>
+  </div>
+
+  <!-- ============================ NAV ============================ -->
+  <header class="nav" id="nav">
+    <a class="nav-brand" href="#top" aria-label="The Cheeky Links Social Club — home">
+      <svg viewBox="0 0 100 100" width="40" height="40" aria-hidden="true">
+        <circle cx="50" cy="50" r="47" fill="none" stroke="#c8a35a" stroke-width="2"/>
+        <circle cx="50" cy="50" r="40" fill="none" stroke="#c8a35a" stroke-width="0.7"/>
+        <text x="50" y="63" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="36" font-weight="700" fill="#e7cd8c">CL</text>
+      </svg>
+      <span class="nav-wordmark">
+        <span class="nav-line-1">The Cheeky Links</span>
+        <span class="nav-line-2">Social Club</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#clubhouse">The Clubhouse</a>
+      <a href="#greens">The Greens</a>
+      <a href="#proshop">The Pro Shop</a>
+      <a href="#nineteenth">The 19th Hole</a>
+      <a href="#findus">Find Us</a>
+    </nav>
+
+    <a href="#nineteenth" class="btn btn-gold btn-sm nav-cta">Become a Member</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="#clubhouse">The Clubhouse</a>
+    <a href="#greens">The Greens</a>
+    <a href="#proshop">The Pro Shop</a>
+    <a href="#nineteenth">The 19th Hole</a>
+    <a href="#findus">Find Us</a>
+    <a href="#nineteenth" class="btn btn-gold">Become a Member</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero">
+      <span class="hero-rail left" aria-hidden="true">Members Only</span>
+      <span class="hero-rail right" aria-hidden="true">Est. 2026 · California</span>
+
+      <div class="hero-crest reveal">
+        <img class="hero-logo" src="assets/cheeky-links-logo.webp" alt="The Cheeky Links Social Club — est. 2026" width="1254" height="1254" fetchpriority="high" />
+      </div>
+
+      <p class="hero-eyebrow reveal">A Private Club for the Finer Things</p>
+      <h1 class="hero-title reveal">Welcome to<br/>the Club.</h1>
+      <p class="hero-sub reveal">Premium small-batch cannabis and clubhouse apparel for those who know the&nbsp;back&nbsp;nine is where the real round begins. Strictly members. Strictly&nbsp;21+.</p>
+      <div class="hero-actions reveal">
+        <a href="#greens" class="btn btn-gold">Tour the Greens</a>
+        <a href="#proshop" class="btn btn-outline">Enter the Pro Shop</a>
+      </div>
+
+      <a href="#clubhouse" class="hero-scroll" aria-label="Scroll to learn more">
+        <span>Through the gates</span>
+        <span class="hero-scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ============================ MARQUEE ============================ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Small Batch</span><span class="dot">•</span>
+        <span>Members Only</span><span class="dot">•</span>
+        <span>Est. 2026</span><span class="dot">•</span>
+        <span>California Grown</span><span class="dot">•</span>
+        <span>The Pro Shop</span><span class="dot">•</span>
+        <span>Front Nine &amp; Back</span><span class="dot">•</span>
+        <span>Small Batch</span><span class="dot">•</span>
+        <span>Members Only</span><span class="dot">•</span>
+        <span>Est. 2026</span><span class="dot">•</span>
+        <span>California Grown</span><span class="dot">•</span>
+        <span>The Pro Shop</span><span class="dot">•</span>
+        <span>Front Nine &amp; Back</span><span class="dot">•</span>
+      </div>
+    </div>
+
+    <!-- ============================ CLUBHOUSE / STORY ============================ -->
+    <section class="clubhouse" id="clubhouse">
+      <div class="section-head reveal">
+        <p class="eyebrow">No. 01 — The Clubhouse</p>
+        <h2 class="section-title">Every great club<br/>has a story.</h2>
+      </div>
+      <div class="clubhouse-grid">
+        <div class="clubhouse-copy reveal">
+          <p class="lead">The Cheeky Links Social Club was built on a simple idea: the best part of any round isn't the scorecard — it's the walk, the company, and the unhurried hours after the eighteenth.</p>
+          <p>We grow in small batches and finish slow, the way the old members like it. Every strain is cured by hand and named for the course. Every piece in the Pro Shop is cut to be worn long after the sun goes down. No mass production. No shortcuts. Just a standard, kept.</p>
+          <p>You won't find us everywhere. That's the point. The Club is for the few who appreciate the difference — and have the good sense to play the back nine.</p>
+        </div>
+        <div class="clubhouse-card reveal">
+          <div class="scorecard">
+            <div class="scorecard-row"><span>Established</span><span>2026</span></div>
+            <div class="scorecard-row"><span>Home Course</span><span>California</span></div>
+            <div class="scorecard-row"><span>Cultivation</span><span>Small Batch</span></div>
+            <div class="scorecard-row"><span>Membership</span><span>By the Few</span></div>
+            <div class="scorecard-row"><span>Dress Code</span><span>Clubhouse Casual</span></div>
+            <div class="scorecard-total"><span>Handicap</span><span>None Needed</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ THE GREENS (CANNABIS) ============================ -->
+    <section class="greens" id="greens">
+      <div class="section-head reveal">
+        <p class="eyebrow">No. 02 — The Greens</p>
+        <h2 class="section-title">The Collection</h2>
+        <p class="section-desc">Small-batch flower, pre-rolls, and live resin — cured by hand and named for the course. A lookbook of the current roster. Availability rotates with the season.</p>
+      </div>
+
+      <div class="card-grid">
+        <!-- card -->
+        <article class="product-card reveal">
+          <div class="product-visual visual-sativa">
+            <span class="hole-no">Hole No. 01</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <rect class="pa-line" x="44" y="6" width="32" height="7" rx="3.5"/>
+              <rect class="pa-fill" x="36" y="13" width="48" height="15" rx="5"/>
+              <path class="pa-fill" d="M36,32 Q36,28 41,28 L79,28 Q84,28 84,32 L84,108 Q84,118 74,118 L46,118 Q36,118 36,108 Z"/>
+              <g class="pa-bud"><circle cx="50" cy="99" r="8"/><circle cx="64" cy="103" r="9"/><circle cx="74" cy="96" r="7"/><circle cx="58" cy="90" r="6"/></g>
+              <rect class="pa-dark" x="44" y="46" width="32" height="30" rx="3"/>
+              <use href="#leafmark" class="pa-leaf" x="50" y="52" width="20" height="20"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>Front Nine</h3><span class="strain-tag tag-sativa">Sativa</span></div>
+            <p>Bright and quick off the tee. Notes of citrus peel, fresh-cut fairway, and morning sun.</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-visual visual-indica">
+            <span class="hole-no">Hole No. 09</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <rect class="pa-line" x="42" y="14" width="36" height="7" rx="3.5"/>
+              <rect class="pa-fill" x="30" y="21" width="60" height="14" rx="5"/>
+              <path class="pa-fill" d="M30,38 Q30,35 35,35 L85,35 Q90,35 90,38 L90,104 Q90,116 78,116 L42,116 Q30,116 30,104 Z"/>
+              <g class="pa-bud"><circle cx="46" cy="96" r="8"/><circle cx="60" cy="100" r="9"/><circle cx="74" cy="96" r="8"/><circle cx="55" cy="88" r="6"/><circle cx="68" cy="88" r="6"/></g>
+              <rect class="pa-dark" x="44" y="50" width="32" height="28" rx="3"/>
+              <use href="#leafmark" class="pa-leaf" x="50" y="55" width="20" height="20"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>Back Nine</h3><span class="strain-tag tag-indica">Indica</span></div>
+            <p>Slow, easy, made for the walk in. Pine, dark earth, and a touch of clubhouse leather.</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-visual visual-hybrid">
+            <span class="hole-no">Hole No. 18</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <rect class="pa-fill" x="38" y="10" width="44" height="18" rx="4"/>
+              <g class="pa-line"><line x1="46" y1="14" x2="46" y2="24"/><line x1="54" y1="14" x2="54" y2="24"/><line x1="62" y1="14" x2="62" y2="24"/><line x1="70" y1="14" x2="70" y2="24"/></g>
+              <path class="pa-fill" d="M34,32 Q34,28 39,28 L81,28 Q86,28 86,32 L86,110 Q86,118 78,118 L42,118 Q34,118 34,110 Z"/>
+              <g class="pa-bud"><circle cx="52" cy="100" r="9"/><circle cx="66" cy="102" r="8"/><circle cx="60" cy="91" r="7"/></g>
+              <rect class="pa-dark" x="44" y="46" width="32" height="32" rx="3"/>
+              <use href="#leafmark" class="pa-leaf" x="50" y="54" width="20" height="20"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>The Turn</h3><span class="strain-tag tag-hybrid">Hybrid</span></div>
+            <p>Balanced enough for the whole round. Stone fruit, gas, and a clean, level finish.</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-visual visual-premium">
+            <span class="hole-no">The Pro's Pick</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <path class="pa-fill" d="M20,46 L20,74 Q20,90 60,90 Q100,90 100,74 L100,46"/>
+              <ellipse class="pa-fill" cx="60" cy="46" rx="40" ry="16"/>
+              <ellipse class="pa-line" cx="60" cy="46" rx="29" ry="11"/>
+              <use href="#leafmark" class="pa-leaf" x="50" y="36" width="20" height="20"/>
+              <path class="pa-soft" d="M32,76 Q60,86 88,76"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>Hole in One</h3><span class="strain-tag tag-premium">Top Shelf</span></div>
+            <p>Our finest eighth, reserved for the members' table. Hand-trimmed, slow-cured, frosted.</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-visual visual-preroll">
+            <span class="hole-no">Pack of Five</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <g class="pa-line">
+                <path d="M47,60 L51,18 L55,60 Z" fill="rgba(244,238,222,0.10)"/>
+                <path d="M59,62 L63,12 L67,62 Z" fill="rgba(244,238,222,0.10)"/>
+                <path d="M71,60 L75,18 L79,60 Z" fill="rgba(244,238,222,0.10)"/>
+              </g>
+              <g class="pa-soft"><line x1="49" y1="26" x2="53" y2="26"/><line x1="61" y1="22" x2="65" y2="22"/><line x1="73" y1="26" x2="77" y2="26"/></g>
+              <path class="pa-fill" d="M40,58 L86,58 L86,108 Q86,114 80,114 L46,114 Q40,114 40,108 Z"/>
+              <rect class="pa-dark" x="49" y="74" width="28" height="26" rx="3"/>
+              <use href="#leafmark" class="pa-leaf" x="54" y="79" width="18" height="18"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>The Caddie</h3><span class="strain-tag tag-hybrid">Pre-Rolls</span></div>
+            <p>Five perfectly packed rounds for the bag. Always ready when you reach the tee.</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-visual visual-vape">
+            <span class="hole-no">Live Resin</span>
+            <svg class="product-art" viewBox="0 0 120 128" aria-hidden="true">
+              <rect class="pa-fill" x="52" y="8" width="16" height="14" rx="4"/>
+              <rect class="pa-fill" x="47" y="22" width="26" height="94" rx="11"/>
+              <rect class="pa-dark" x="55" y="38" width="10" height="34" rx="5"/>
+              <use href="#leafmark" class="pa-leaf" x="51" y="86" width="18" height="18"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <div class="product-top"><h3>The 19th</h3><span class="strain-tag tag-premium">Vape</span></div>
+            <p>For the clubhouse, not the course. Full-flavor live resin in a quiet, pocketable draw.</p>
+          </div>
+        </article>
+      </div>
+      <p class="card-grid-note reveal">Product names &amp; profiles shown for the lookbook. Swap in your real strains, photos, and lab data before launch.</p>
+    </section>
+
+    <!-- ============================ THE PRO SHOP (APPAREL) ============================ -->
+    <section class="proshop" id="proshop">
+      <div class="section-head reveal">
+        <p class="eyebrow">No. 03 — The Pro Shop</p>
+        <h2 class="section-title">Clubhouse Apparel</h2>
+        <p class="section-desc">Worn at the turn and long after. Heavyweight cotton, embroidered crests, members' colors. Limited drops — when they're gone, they're gone.</p>
+      </div>
+
+      <div class="card-grid proshop-grid">
+        <article class="apparel-card reveal">
+          <div class="apparel-visual av-1">
+            <span class="plate-no">Plate No. 01</span>
+            <svg class="apparel-art" viewBox="0 0 120 132" aria-hidden="true">
+              <path class="pa-fill" d="M40,34 L22,52 L30,67 L40,59 L40,120 L80,120 L80,59 L90,67 L98,52 L80,34 Z"/>
+              <path class="pa-fill" d="M45,34 Q60,52 75,34 Q71,23 60,23 Q49,23 45,34 Z"/>
+              <path class="pa-soft" d="M46,88 L74,88 L74,106 L46,106 Z"/>
+              <g class="pa-soft"><line x1="56" y1="36" x2="56" y2="52"/><line x1="64" y1="36" x2="64" y2="52"/></g>
+              <line class="pa-soft" x1="40" y1="114" x2="80" y2="114"/>
+              <use href="#leafmark" class="pa-leaf" x="63" y="60" width="13" height="13"/>
+            </svg>
+          </div>
+          <div class="apparel-body"><h3>The Clubhouse Hoodie</h3><span class="drop-tag">Members' Drop</span></div>
+        </article>
+
+        <article class="apparel-card reveal">
+          <div class="apparel-visual av-2">
+            <span class="plate-no">Plate No. 02</span>
+            <svg class="apparel-art" viewBox="0 0 120 132" aria-hidden="true">
+              <path class="pa-fill" d="M42,30 L22,48 L30,64 L42,56 L42,120 L78,120 L78,56 L90,64 L98,48 L78,30 Z"/>
+              <path class="pa-line" d="M42,30 L60,45 L78,30"/>
+              <line class="pa-line" x1="60" y1="45" x2="60" y2="120"/>
+              <g class="pa-soft"><circle cx="60" cy="60" r="2"/><circle cx="60" cy="74" r="2"/><circle cx="60" cy="88" r="2"/><circle cx="60" cy="102" r="2"/></g>
+              <g class="pa-soft"><rect x="44" y="64" width="13" height="12" rx="1"/><rect x="63" y="64" width="13" height="12" rx="1"/></g>
+            </svg>
+          </div>
+          <div class="apparel-body"><h3>The Caddie Jacket</h3><span class="drop-tag">Members' Drop</span></div>
+        </article>
+
+        <article class="apparel-card reveal">
+          <div class="apparel-visual av-3">
+            <span class="plate-no">Plate No. 03</span>
+            <svg class="apparel-art" viewBox="0 0 120 132" aria-hidden="true">
+              <path class="pa-fill" d="M44,32 L24,48 L32,64 L44,56 L44,118 L76,118 L76,56 L88,64 L96,48 L76,32 Z"/>
+              <path class="pa-line" d="M48,32 L60,47 L72,32"/>
+              <line class="pa-line" x1="56" y1="40" x2="56" y2="66"/>
+              <line class="pa-line" x1="64" y1="40" x2="64" y2="66"/>
+              <g class="pa-soft"><circle cx="60" cy="49" r="1.8"/><circle cx="60" cy="59" r="1.8"/></g>
+              <use href="#leafmark" class="pa-leaf" x="64" y="64" width="13" height="13"/>
+            </svg>
+          </div>
+          <div class="apparel-body"><h3>The Members Polo</h3><span class="drop-tag">Core Collection</span></div>
+        </article>
+
+        <article class="apparel-card reveal">
+          <div class="apparel-visual av-4">
+            <span class="plate-no">Plate No. 04</span>
+            <svg class="apparel-art" viewBox="0 0 120 132" aria-hidden="true">
+              <path class="pa-fill" d="M28,82 Q30,42 60,42 Q90,42 92,82 Z"/>
+              <path class="pa-fill" d="M24,82 Q60,98 96,82 Q96,88 92,90 Q60,102 28,90 Q24,88 24,82 Z"/>
+              <g class="pa-soft"><path d="M60,42 L60,82"/><path d="M45,46 Q47,66 51,82"/><path d="M75,46 Q73,66 69,82"/></g>
+              <circle class="pa-line" cx="60" cy="44" r="2.5"/>
+              <use href="#leafmark" class="pa-leaf" x="52" y="56" width="16" height="16"/>
+            </svg>
+          </div>
+          <div class="apparel-body"><h3>The Back Nine Cap</h3><span class="drop-tag">Core Collection</span></div>
+        </article>
+      </div>
+      <p class="card-grid-note reveal">Placeholder lookbook plates. Drop in your real garment photography to bring the Pro Shop to life.</p>
+    </section>
+
+    <!-- ============================ THE 19TH HOLE (MEMBERSHIP) ============================ -->
+    <section class="nineteenth" id="nineteenth">
+      <div class="nineteenth-inner reveal">
+        <p class="eyebrow centered">No. 04 — The 19th Hole</p>
+        <h2 class="section-title centered">The round's over.<br/>The clubhouse is open.</h2>
+        <p class="nineteenth-copy">Join the Club for first access to every drop, members-only strains, event invitations, and the occasional well-poured surprise. No spam — just a note from the clubhouse when it matters.</p>
+        <form class="member-form" id="member-form" novalidate>
+          <label class="sr-only" for="member-email">Email address</label>
+          <input type="email" id="member-email" name="email" placeholder="you@theclubhouse.com" autocomplete="email" required />
+          <button type="submit" class="btn btn-gold">Request Membership</button>
+        </form>
+        <p class="member-status" id="member-status" role="status" aria-live="polite"></p>
+        <p class="nineteenth-fine">By joining you confirm you're 21+. We'll only use your email to talk about the Club.</p>
+      </div>
+    </section>
+
+    <!-- ============================ FIND US ============================ -->
+    <section class="findus" id="findus">
+      <div class="section-head reveal">
+        <p class="eyebrow">No. 05 — Tee Times</p>
+        <h2 class="section-title">Where to Play</h2>
+        <p class="section-desc">Now teeing off at select California dispensaries. Ask your budtender for Cheeky Links by name.</p>
+      </div>
+      <ul class="stockist-list reveal">
+        <li><span class="stockist-name">The Green Room</span><span class="stockist-city">Long Beach, CA</span></li>
+        <li><span class="stockist-name">Fairway Provisions</span><span class="stockist-city">Los Angeles, CA</span></li>
+        <li><span class="stockist-name">The Caddyshack Co.</span><span class="stockist-city">San Diego, CA</span></li>
+        <li><span class="stockist-name">Back Nine Botanicals</span><span class="stockist-city">Oakland, CA</span></li>
+      </ul>
+      <div class="findus-cta reveal">
+        <div>
+          <h3>Want to stock the Club?</h3>
+          <p>Wholesale inquiries from licensed California retailers are always welcome.</p>
+        </div>
+        <a href="#nineteenth" class="btn btn-outline">Become a Stockist</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <svg viewBox="0 0 100 100" width="56" height="56" aria-hidden="true">
+          <circle cx="50" cy="50" r="47" fill="none" stroke="#c8a35a" stroke-width="1.5"/>
+          <circle cx="50" cy="50" r="40" fill="none" stroke="#c8a35a" stroke-width="0.6"/>
+          <text x="50" y="63" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="34" font-weight="700" fill="#e7cd8c">CL</text>
+        </svg>
+        <p class="footer-name">The Cheeky Links<br/>Social Club</p>
+        <p class="footer-tag">Members only. Est. 2026. California.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>The Club</h4>
+        <a href="#clubhouse">The Clubhouse</a>
+        <a href="#greens">The Greens</a>
+        <a href="#proshop">The Pro Shop</a>
+        <a href="#nineteenth">The 19th Hole</a>
+        <a href="#findus">Find Us</a>
+      </nav>
+      <div class="footer-social">
+        <h4>The Locker Room</h4>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="#nineteenth">Newsletter</a>
+        <a href="mailto:hello@example.com">hello@theclub.com</a>
+      </div>
+    </div>
+
+    <div class="compliance">
+      <p><strong>Government Warning:</strong> This product contains cannabis, a Schedule I controlled substance. Keep out of reach of children and animals. Cannabis products may only be possessed or consumed by persons 21 years of age or older. The intoxicating effects of cannabis products may be delayed. Cannabis use while pregnant or breastfeeding may be harmful. It is illegal to drive or operate a vehicle while under the influence of cannabis.</p>
+      <p>For use only by adults 21 and older. California license #C00-0000000-LIC <em>(replace with your real license number before going live)</em>.</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> The Cheeky Links Social Club. All rights reserved.</p>
+      <p>21+ · Please enjoy responsibly.</p>
+    </div>
+  </footer>
+
+  <!-- shared leaf symbol for cards -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="leafmark" viewBox="0 0 60 60">
+      <g transform="translate(30,34)" fill="currentColor" stroke="#08160f" stroke-width="0.5">
+        <path d="M0,8 C -4,-6 -2,-24 0,-34 C 2,-24 4,-6 0,8 Z"/>
+        <path transform="rotate(32) scale(0.78)" d="M0,8 C -4,-6 -2,-24 0,-34 C 2,-24 4,-6 0,8 Z"/>
+        <path transform="rotate(-32) scale(0.78)" d="M0,8 C -4,-6 -2,-24 0,-34 C 2,-24 4,-6 0,8 Z"/>
+        <path transform="rotate(58) scale(0.56)" d="M0,8 C -4,-6 -2,-24 0,-34 C 2,-24 4,-6 0,8 Z"/>
+        <path transform="rotate(-58) scale(0.56)" d="M0,8 C -4,-6 -2,-24 0,-34 C 2,-24 4,-6 0,8 Z"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>

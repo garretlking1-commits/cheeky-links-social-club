@@ -1,0 +1,10 @@
+{
+  "name": "back-nine-greens-club",
+  "version": "1.0.0",
+  "description": "The Back Nine Greens Club — country-club-meets-cannabis brand lookbook site",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "node serve.js"
+  }
+}

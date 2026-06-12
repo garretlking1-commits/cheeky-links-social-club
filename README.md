@@ -1,6 +1,6 @@
-# The Cheeky Links Social Club
+# Cheeky Links Social Club
 
-> Folder is still named `back-nine-greens-club` (the original working name) — the brand was renamed to **The Cheeky Links Social Club**. The directory name is cosmetic; everything user-facing uses the new name.
+> Folder is still named `back-nine-greens-club` (the original working name) — the brand was renamed to **Cheeky Links Social Club**. The directory name is cosmetic; everything user-facing uses the new name.
 
 A premium, country-club-meets-cannabis brand site — a single-page lookbook for a cannabis **+** apparel lifestyle brand (think Cookies / STIIIZY, but private-members-club energy).
 

@@ -49,7 +49,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`\n  The Back Nine Greens Club is open.`);
+  console.log(`\n  Cheeky Links Social Club is open.`);
   console.log(`  Local:   http://localhost:${PORT}`);
   console.log(`  Network: http://<your-LAN-ip>:${PORT}  (open this on your phone)\n`);
 });
